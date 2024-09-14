@@ -1,0 +1,102 @@
+.nav img{
+    width: 200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(spikes.webp) ;
+}
+
+.nav{
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 2 rem ;
+    padding: 15px 0;
+}
+
+.nav ul{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a:hover{
+    border-bottom: 2px solid seagreen;
+    color: seagreen;
+    transition: all;
+    transition-duration: 100ms;
+    
+}
+
+.nav ul li a:active{
+    border-bottom: 2px solid seagreen;
+    color: seagreen;
+    transition: all;
+    transition-duration: 100ms;
+    
+}
+
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.main .bold{
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    margin: -5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.biasa{
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.tombol{
+    display: inline-block;
+}
+
+.button{
+    background-color: gold;
+    padding: 20px 70px;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+
